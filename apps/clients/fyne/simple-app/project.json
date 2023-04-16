@@ -14,6 +14,12 @@
     "serve": {
       "executor": "@nx-go/nx-go:serve",
       "options": {
+        "main": "apps/clients/fyne/simple-app/main.go"
+      }
+    },
+    "serve:watch": {
+      "executor": "@nx-go/nx-go:serve",
+      "options": {
         "cmd": "gow",
         "cwd": ".",
         "main": "apps/clients/fyne/simple-app/main.go"
