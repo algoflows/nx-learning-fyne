@@ -17,6 +17,14 @@
         "main": "apps/clients/fyne/fyne-markdown/main.go"
       }
     },
+    "serve:watch": {
+      "executor": "@nx-go/nx-go:serve",
+      "options": {
+        "cmd": "gow",
+        "cwd": ".",
+        "main": "apps/clients/fyne/fyne-markdown/main.go"
+      }
+    },
     "test": {
       "executor": "@nx-go/nx-go:test"
     },
